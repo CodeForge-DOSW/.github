@@ -1,0 +1,10 @@
+<type>: <short description> 
+
+# Types:
+# feat     → new feature
+# fix      → bug fix
+# docs     → documentation
+# build    → build/config changes
+# refactor → code improvement
+# test     → tests
+# chore    → maintenance
