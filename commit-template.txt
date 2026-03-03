@@ -1,10 +1,22 @@
-<type>: <short description> 
+type(scope): short description
 
 # Types:
-# feat     → new feature
-# fix      → bug fix
-# docs     → documentation
-# build    → build/config changes
-# refactor → code improvement
-# test     → tests
-# chore    → maintenance
+# feat     -> new feature
+# fix      -> bug fix
+# docs     -> documentation changes
+# style    -> formatting, missing semicolons, etc (no code logic)
+# refactor -> code restructuring without behavior change
+# test     -> adding or updating tests
+# chore    -> maintenance tasks
+# ci       -> CI/CD changes
+# build    -> build system or dependencies
+# perf     -> performance improvements
+# revert   -> revert previous commit
+
+# Rules:
+# - use lowercase
+# - imperative mood ("add" not "added")
+# - max 72 characters
+
+# Example:
+# feat(auth): add login endpoint
