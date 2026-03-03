@@ -1,0 +1,15 @@
+name: Commit Message Validation
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate commit messages
+        uses: wagoid/commitlint-github-action@v5
